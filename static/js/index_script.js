@@ -35,7 +35,7 @@ function handleKeyDown(event) {
                 break;
             case 'g':
                 document.getElementById('userInput').value = '';
-                window.location.href = '/github';
+                window.open('https://github.com/pratyushsaxena1?tab=repositories', '_blank');
                 break;
             case 'i':
                 document.getElementById('userInput').value = '';
@@ -51,7 +51,7 @@ function handleKeyDown(event) {
                 break;
             case 'w':
                 document.getElementById('userInput').value = '';
-                window.location.href = '/w3_study';
+                window.open('https://www.w3-study.com/', '_blank');
                 break;
             default:
                 document.getElementById('userInput').value = '';
