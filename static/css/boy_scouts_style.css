@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    font-size: 4em;
+}
+
+#videoContainer {
+    text-align: center;
+}
+
+#summaryContainer {
+    position: relative;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 30vh;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

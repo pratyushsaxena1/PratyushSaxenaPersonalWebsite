@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Pratyush's Cool Website</title>
+    <link rel = "stylesheet" href = "{{url_for('static', filename = 'css/general_style.css')}}">
+    <link rel = "stylesheet" href = "{{url_for('static', filename = 'css/index_style.css')}}">
+</head>
+<body>
+    <div id = "introText">
+        <span id = "mainIntroText">Hello.</span>
+        <button id = "skipAnimationButton" onclick = "skipAnimation()">Skip Animation</button>
+    </div>
+    <p id = "inputText">Last login: Wed Feb 7 16:47:49 on ttys003</p>
+    <p id = "inputText">(base) AmazingVisitorToMyWebsite@MacBook-Pro ~ % whoami</p>
+    <p id = "computerText">my name is pratyush saxena, and this is my personal website. i hope you enjoy looking around here as much as i enjoyed coding it.</p>
+    <p id = "inputText">(base) AmazingVisitorToMyWebsite@MacBook-Pro ~ % ls</p>
+    <p id = "computerText">boy scouts (b)</p>
+    <p id = "computerText">extracurriculars (e)</p>
+    <p id = "computerText">github (g)</p>
+    <p id = "computerText">inventions (i)</p>
+    <p id = "computerText">sysadmin (s)</p>
+    <p id = "computerText">tae kwon do (t)</p>
+    <p id = "computerText">w3-Study (w)</p>
+    <p id = "inputText" id = "inputContainer">(base) AmazingVisitorToMyWebsite@MacBook-Pro ~ % <input type = "text" id = "userInput" placeholder = "Type a letter above" onkeydown = "handleKeyDown(event)"></input></p>
+    <script src = "{{url_for('static', filename = 'js/index_script.js')}}"></script>
+</body>
+</html>
