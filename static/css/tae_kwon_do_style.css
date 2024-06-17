@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    font-size: 4em;
+}
+
+.belt_container {
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.description_type_1 {
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 10vw;
+}
+
+.belt_pic_type_1 {
+    display: inline-block;
+    margin-left: 10vw;
+    vertical-align: middle;
+}
+
+.description_type_2 {
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 10vw;
+}
+
+.belt_pic_type_2 {
+    display: inline-block;
+    margin-right: 10vw;
+    vertical-align: middle;
+}
