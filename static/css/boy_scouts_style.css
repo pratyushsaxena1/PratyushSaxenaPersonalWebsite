@@ -3,6 +3,14 @@ header {
     font-size: 4em;
 }
 
+p {
+    text-align: center;
+}
+
+#div_1 {
+    text-align: center;
+}
+
 #videoContainer {
     text-align: center;
 }
