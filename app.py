@@ -14,10 +14,6 @@ def boy_scouts():
 def extracurriculars():
     return render_template('extracurriculars.html')
 
-@app.route('/inventions')
-def inventions():
-    return render_template('inventions.html')
-
 @app.route('/sysadmin')
 def sysadmin():
     return render_template('sysadmin.html')
