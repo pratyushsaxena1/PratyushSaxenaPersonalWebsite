@@ -14,10 +14,6 @@ def boy_scouts():
 def extracurriculars():
     return render_template('extracurriculars.html')
 
-@app.route('/github')
-def github():
-    return render_template('github.html')
-
 @app.route('/inventions')
 def inventions():
     return render_template('inventions.html')
@@ -29,10 +25,6 @@ def sysadmin():
 @app.route('/tae_kwon_do')
 def tae_kwon_do():
     return render_template('tae_kwon_do.html')
-
-@app.route('/w3_study')
-def w3_study():
-    return render_template('w3_study.html')
 
 if __name__ == '__main__':
     app.run(debug = True)

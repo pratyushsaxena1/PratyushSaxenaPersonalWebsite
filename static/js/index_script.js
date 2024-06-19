@@ -41,6 +41,10 @@ function handleKeyDown(event) {
                 document.getElementById('userInput').value = '';
                 window.location.href = '/inventions';
                 break;
+            case 'r':
+                document.getElementById('userInput').value = '';
+                window.open('https://docs.google.com/document/d/1adDM_fTOiw_qF20JFMarmKHwtGgimbQzQcfbJPO_mBY/edit?usp=sharing', '_blank');
+                break;
             case 's':
                 document.getElementById('userInput').value = '';
                 window.location.href = '/sysadmin';
